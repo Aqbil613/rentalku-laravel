@@ -1,0 +1,3 @@
+@extends('layouts.app') @section('title','RentalKu - Rental Mobil') @section('content')
+<section class="hero"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><span class="badge bg-warning text-dark mb-3">Tugas Akhir Laravel</span><h1 class="display-3 fw-bold">Rental mobil lebih mudah dan terorganisir.</h1><p class="lead">RentalKu membantu mengelola data armada dan pelanggan melalui fitur CRUD yang cepat, sederhana, dan responsif.</p><a href="{{ route('dashboard') }}" class="btn btn-light btn-lg me-2">Buka Dashboard</a><a href="{{ route('mobil.index') }}" class="btn btn-outline-light btn-lg">Lihat Armada</a></div><div class="col-lg-5 text-center"><div class="display-1">🚗</div></div></div></div></section>
+@endsection

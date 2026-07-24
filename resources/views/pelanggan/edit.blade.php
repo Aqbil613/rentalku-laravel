@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Edit Pelanggan') @section('content')<div class="container py-5"><div class="card p-4"><h2>Edit Pelanggan</h2><form method="POST" action="{{ route('pelanggan.update',$pelanggan) }}">@include('pelanggan._form')</form></div></div>@endsection
